@@ -1,0 +1,34 @@
+STEP-BY-STEP GUIDE:
+
+1. Install required libraries:
+   Open terminal in your project folder and run:
+   pip install streamlit openai
+
+2. Save this file as:
+   app.py
+
+3. Run the app:
+   streamlit run app.py
+
+4. Open browser:
+   It will automatically open at:
+   http://localhost:8501
+
+5. Enter:
+   - Your OpenAI API Key
+   - Role
+   - Context
+   - Task
+
+6. Click "Generate Enhanced Prompt"
+
+7. You will get output in:
+   - Plain text
+   - XML
+   - JSON
+
+NOTES:
+- This app does NOT execute the prompt
+- It only improves the prompt
+- Keep your API key safe
+"""
